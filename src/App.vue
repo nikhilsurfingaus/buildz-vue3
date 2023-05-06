@@ -1,30 +1,33 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <Nav />
   <router-view/>
+  <Footer />
 </template>
 
+<script lang="ts">
+import Nav from './components/Nav.vue'
+import 'primeicons/primeicons.css';
+import Footer from './components/Footer.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Nav,Footer
+  }
+}
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #DD0000;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background: #2a2e31;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 2em;
+    background: linear-gradient(-45deg, #DD0000, #FF0000, #D10000, #871E1E);
 }
 </style>
