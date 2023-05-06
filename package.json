@@ -11,8 +11,11 @@
     "@coreui/icons-vue": "^2.0.0",
     "core-js": "^3.8.3",
     "primeicons": "^6.0.1",
+    "v-scroll-to-top": "^1.0.2",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
+    "vue-scroll-up": "^2.0.0",
+    "vue-simple-scroll-up": "^0.1.5",
     "vue-simple-typewriter": "^0.0.6"
   },
   "devDependencies": {

@@ -1,4 +1,5 @@
 <template>
+
   <HeroSection :imageUrl="imageUrl" :title="title" :subtitle="subtitle" :bgOpacity="0.5" />
   <Products :products="productList" />
   <BaseLayout
@@ -9,11 +10,13 @@
       buttonLink="https://www.carsales.com.au/cars/toyota/86/automatic-transmission/red-colour/"
   />
   <RenderLayout
-      :image="baseImg"
+      :image="renderImg"
       title="Car Render"
       subtitle="Build Estimate $34,000"
-      buttonLink="https://www.carsales.com.au/cars/?q=(And.Service.carsales._.(C.Make.Audi._.Model.A7.)_.Year.range(2018..2020).)&sort=%7ePrice"
+      buttonLink="https://www.3dtuning.com/en-US/"
   />
+
+
 </template>
 
 <script>
@@ -25,6 +28,8 @@ import { toRefs } from 'vue';
 import baseImg from '../assets/toyotabase.jpg';
 import BaseLayout from '../components/BaseLayout.vue';
 import RenderLayout from '../components/RenderLayout.vue';
+import renderImg from '../assets/86Render.jpg';
+
 
 export default {
   components: {HeroSection, Products, BaseLayout, RenderLayout},
@@ -41,7 +46,7 @@ export default {
       title,
       subtitle,
       productList,
-      baseImg
+      baseImg, renderImg
     };
   },
 };

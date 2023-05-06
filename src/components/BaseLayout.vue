@@ -69,7 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 40%; /* Set a fixed width in percentage */
+    max-width: 60%; /* Set a fixed width in percentage */
   }
   
   .image-container img {

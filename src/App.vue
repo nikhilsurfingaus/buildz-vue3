@@ -1,4 +1,5 @@
 <template>
+  <Scroll />
   <Nav />
   <router-view/>
   <Footer />
@@ -8,11 +9,12 @@
 import Nav from './components/Nav.vue'
 import 'primeicons/primeicons.css';
 import Footer from './components/Footer.vue'
+import Scroll from './components/Scroll.vue'
 
 export default {
   name: 'App',
   components: {
-    Nav,Footer
+    Nav,Footer, Scroll
   }
 }
 </script>
