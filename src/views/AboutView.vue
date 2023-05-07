@@ -3,7 +3,7 @@
     <div class="about-page">
       <div class="about-section">
         <h1 class="title">About</h1>
-        <div class="image-section">
+        <div class="image-section animate__animated animate__fadeIn">
           <img :src="profile" alt="About Image" />
         </div>
         <hr />

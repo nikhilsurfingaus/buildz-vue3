@@ -7,6 +7,7 @@
         py-6
         mx-auto
         md:flex md:justify-between md:items-center
+        navbar
       "
     >
       <div class="flex items-center justify-between">
@@ -15,11 +16,12 @@
           class="
             text-xl
             font-bold
-            text-gray-100
+            text-red-600
             md:text-2xl
             hover:text-red-600	
+            animate__animated animate__slideInDown
           "
-          >BUILDZ <i class="pi pi-prime ml-0"></i>
+          >BUILDZ <i class="pi pi-prime ml-0 "></i>
         </router-link>
         <!-- Mobile menu button -->
         <div @click="toggleNav" class="flex md:hidden">
@@ -50,6 +52,7 @@
           space-y-4
           md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 
           route
+          animate__animated animate__slideInDown
         "
       >
         <li>
@@ -111,4 +114,10 @@ export default{
   font-size: 1.2em;
   font-weight: bold;
 }
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="hero" :style="{ backgroundImage: `url(${imageUrl})` }">
+  <div class="hero animate__animated animate__fadeIn" :style="{ backgroundImage: `url(${imageUrl})` }">
     <div class="overlay"></div>
     <div class="hero-text">
       <h1>{{ title }}</h1>
@@ -36,7 +36,7 @@ export default defineComponent({
       required: true,
     },
     subtitle: {
-      type: Array,
+      type: Array as () => string[],
       required: true,
     },
   },

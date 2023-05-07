@@ -10,6 +10,7 @@ import Nav from './components/Nav.vue'
 import 'primeicons/primeicons.css';
 import Footer from './components/Footer.vue'
 import Scroll from './components/Scroll.vue'
+import 'animate.css';
 
 export default {
   name: 'App',
@@ -19,7 +20,9 @@ export default {
 }
 </script>
 <style>
-
+body {
+  background: black;
+}
 
 nav a.router-link-exact-active {
   color: #DD0000;
