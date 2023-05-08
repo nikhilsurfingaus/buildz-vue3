@@ -7,7 +7,9 @@
           <img :src="product.imageSrc" alt="Product Image" />
           <h3>{{ product.name }}</h3>
           <p class="price">{{ product.price }}</p>
-          <a :href="product.link" target="_blank">Buy Product</a>
+          <div class="product-buttons">
+            <a :href="product.link" target="_blank">Buy Product</a>
+          </div>
         </div>
       </div>
     </div>
@@ -89,6 +91,10 @@ export default defineComponent({
 
 }
 
+.product-buttons {
+  margin-top: auto;
+}
+
 @media screen and (min-width: 600px) {
     .products {
         display: grid;
@@ -107,6 +113,9 @@ export default defineComponent({
   cursor: pointer;
   background: black;
   height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
@@ -126,12 +135,15 @@ export default defineComponent({
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: #fff;
+    font-weight: bold;
 }
 
 .product .price {
     font-weight: bold;
     margin-bottom: 10px;
     color: #fff;
+    margin-top: auto;
+    font-size: 1.5em;
 }
 
 .product a {
