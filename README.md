@@ -23,13 +23,13 @@ Features:
 
 ## Screenshots 
 <p float="left">
-  <img src="https://github.com/nikhilsurfingaus/fullstack-crypto-portfolio/blob/master/src/assets/1.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/fullstack-crypto-portfolio/blob/master/src/assets/2.png" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/fullstack-crypto-portfolio/blob/master/src/assets/3.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/fullstack-crypto-portfolio/blob/master/src/assets/4.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/fullstack-crypto-portfolio/blob/master/src/assets/5.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/fullstack-crypto-portfolio/blob/master/src/assets/fire.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/fullstack-crypto-portfolio/blob/master/src/assets/mobile.jpg" height=25% width=25% />
+  <img src="https://github.com/nikhilsurfingaus/buildz-vue3/blob/master/src/assets/wallpaper/demo1.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/buildz-vue3/blob/master/src/assets/wallpaper/demo2.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/buildz-vue3/blob/master/src/assets/wallpaper/demo3.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/buildz-vue3/blob/master/src/assets/wallpaper/demo4.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/buildz-vue3/blob/master/src/assets/wallpaper/demo5.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/buildz-vue3/blob/master/src/assets/wallpaper/demo6.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/buildz-vue3/blob/master/src/assets/wallpaper/demo7.jpg" height=25% width=25% />
 </p>
 
 ## Libraries
