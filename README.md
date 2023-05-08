@@ -33,26 +33,19 @@ Features:
 </p>
 
 ## Libraries
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.23",
-    "@types/react": "^18.0.35",
-    "@types/react-dom": "^18.0.11",
-    "bootstrap": "^5.2.3",
-    "firebase": "^9.19.1",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.7.3",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0",
-    "react-modal": "^3.16.1",
-    "react-scripts": "5.0.1",
-    "react-select": "^5.7.2",
-    "react-tooltip": "^5.11.1",
-    "reactstrap": "^9.1.9",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-vue": "^2.0.0",
+    "animate.css": "^4.1.1",
+    "core-js": "^3.8.3",
+    "primeicons": "^6.0.1",
+    "v-scroll-to-top": "^1.0.2",
+    "vue": "^3.2.13",
+    "vue-image-slider": "^1.0.2",
+    "vue-router": "^4.0.3",
+    "vue-scroll-up": "^2.0.0",
+    "vue-simple-scroll-up": "^0.1.5",
+    "vue-simple-typewriter": "^0.0.6",
+    "vue3-carousel": "^0.3.1"
 
 ## Copyright
 
